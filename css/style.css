@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+#main-container {
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    background-image: url("/woodback.jpg");
+    background-size: contain;
+    filter: opacity(.8);
+}
+
+#main-container #title {
+    margin-bottom: 30px;
+}
+
+.bike-list {
+  list-style-type: none;
+  padding: 20px;
+  color: white;
+}
